@@ -17,6 +17,7 @@ export class ContactPage implements OnInit {
         type: 'text',
         title: 'Full Name',
         formControlName: 'name',
+        value: 'Ronald Hove',
         validators: [Validators.required],
         validationMessages: [
           {
@@ -42,6 +43,7 @@ export class ContactPage implements OnInit {
         title: 'Message',
         formControlName: 'desc',
         formFieldType: 'ion-textarea',
+        value: 'Some desc',
         textAreaRowCount: 6,
         validators: [Validators.required],
         validationMessages: [
