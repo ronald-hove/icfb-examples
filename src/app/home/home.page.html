@@ -1,20 +1,46 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      ICFB Examples
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid class="ion-padding">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+            <ion-text class="ion-text-wrap">
+              <p>Examples of forms built using the <a href="https://github.com/ronald-hove/ion-custom-form-builder" target="_blank">ion-custom-form-builder</a> library</p>
+            </ion-text>
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-item routerLink="/login">
+            <ion-label>Login Form</ion-label>
+          </ion-item>
+          <ion-item routerLink="/register">
+            <ion-label>Register Form</ion-label>
+          </ion-item>
+          <ion-item routerLink="/pay">
+            <ion-label>Payment Form</ion-label>
+          </ion-item>
+          <ion-item routerLink="/contact">
+            <ion-label>Contact Form</ion-label>
+          </ion-item>
+          <ion-item >
+            <ion-label>More Coming Soon</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
