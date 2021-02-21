@@ -1,0 +1,7 @@
+{
+  "name": "icfb-examples",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
