@@ -4,7 +4,21 @@ This app showcases real life examples of forms that you can build using ion cust
 
 Please visit for [Ion Custom Form Builder](https://github.com/ronald-hove/ion-custom-form-builder) Repo for docs and more info
 
-[Live Demo]()
+
+**How to run:**
+
+copy & paste into your terminal the following...
+
+```txt
+npm install && npm run build
+```
+
+then
+
+```txt
+ionic capacitor run android
+```
+
 
 **What's in Demo**
 
